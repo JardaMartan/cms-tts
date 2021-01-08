@@ -1,0 +1,7 @@
+﻿en-US;file_name;cs-CZ
+Please enter the PIN, followed by the '#'(pound) key.;passcode_entry.wav;Zadejte PIN a stiskněte křížek.
+If you have a passcode, please enter it, followed by '#' pound. Otherwise please press '#' pound.;passcode_or_blank_required_entry.wav;Jestliže máte nastaveno heslo, zadejte je a stiskněte křížek. Jinak prosím stiskněte křížek.
+If you have a passcode, please enter it, followed by '#' pound. Otherwise please wait.;passcode_or_blank_timeout_entry.wav;Jestliže máte nastaveno heslo, zadejte je a stiskněte křížek. Jinak prosím vyčkejte.
+That PIN isn't correct. Please try again.;passcode_incorrect_try_again.wav;Nesprávný PIN. Zkuste prosím znovu.
+Please try again: this is your last attempt.;passcode_incorrect_final_attempt.wav;Zkuste prosím znovu. Je to váš poslední pokus.
+That PIN isn't correct. Goodbye.;passcode_incorrect_goodbye.wav;Nesprávný PIN. Nashledanou.

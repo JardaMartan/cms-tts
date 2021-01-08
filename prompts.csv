@@ -1,0 +1,53 @@
+﻿en-US;file_name;cs-CZ
+Welcome to a Cisco meeting ;welcome.wav;Vítejte v konferenci.
+I haven't been able to connect you. Goodbye. ;timeout.wav;Nepodařilo se mi vás spojit. Nashledanou.
+Hello. You are invited to a Cisco call. ;call_outgoing_welcome.wav;Dobrý den. Byli jste pozváni k hovoru.
+Press '1' to join the call. ;call_join_confirmation.wav;Pro připojení k hovoru, stiskněte 1.
+You are joining the call now. ;call_join.wav;Nyní budete připojeni k hovoru.
+You are invited to enter a Cisco meeting. ;cospace_outgoing_welcome.wav;Byli jste pozváni k připojení do konference.
+Press '1' to enter the meeting. ;cospace_join_confirmation.wav;Pro připojení do konference, stiskněte 1.
+You are entering the meeting now. ;cospace_join.wav;Nyní budete připojeni do konference.
+You have been disconnected from the meeting ;disconnected.wav;Byli jste odpojeni s konference.
+This meeting is locked, you are waiting to be allowed in ;locked_you_are_waiting.wav;Konference je uzamčena, počkejte až budete vpuštěni.
+This meeting is being recorded ;meeting_recorded.wav;Konference se nahrává.
+This meeting is no longer being recorded ;meeting_recording_ended.wav;Konference už se nenahrává.
+This meeting is being streamed;meeting_streamed.wav;Konference je vysílána.
+This meeting is no longer being streamed;meeting_streaming_ended.wav;Konference už není vysílána.
+Your meeting has ended;meeting_ended.wav;Konference skončila.
+The meeting is unlocked;meeting_unlocked.wav;Konference je odemčena.
+The meeting is locked;meeting_locked.wav;Konference je uzamčena.
+You are the only participant;only_participant.wav;Jste jediný účastník.
+Please enter the PIN, followed by the '#'(pound) key.;passcode_entry.wav;Zadejte PIN a stiskněte křížek.
+If you have a passcode, please enter it, followed by '#' pound. Otherwise please press '#' pound.;passcode_or_blank_required_entry.wav;Jestliže máte nastaveno heslo, zadejte je a stiskněte křížek. Jinak prosím stiskněte křížek.
+If you have a passcode, please enter it, followed by '#' pound. Otherwise please wait.;passcode_or_blank_timeout_entry.wav;Jestliže máte nastaveno heslo, zadejte je a stiskněte křížek. Jinak prosím vyčkejte.
+That PIN isn't correct. Please try again.;passcode_incorrect_try_again.wav;Nesprávný PIN. Zkuste prosím znovu.
+Please try again: this is your last attempt.;passcode_incorrect_final_attempt.wav;Zkuste prosím znovu. Je to váš poslední pokus.
+That PIN isn't correct. Goodbye.;passcode_incorrect_goodbye.wav;Nesprávný PIN. Nashledanou.
+There is one par- ticipant in the meeting.;total_participant_1.wav;V konferenci je jeden účastník.
+There are two participants in the meeting.;total_participant_2.wav;V konferenci jsou dva účastníci.
+There are three participants in the meeting.;total_participant_3.wav;V konferenci jsou tři účastníci.
+There are four participants in the meeting.;total_participant_4.wav;V konferenci jsou čtyři účastníci.
+There are five participants in the meeting.;total_participant_5.wav;V konferenci je pět účastníků.
+There are six participants in the meeting.;total_participant_6.wav;V konferenci je šest účastníků.
+There are seven participants in the meeting.;total_participant_7.wav;V konferenci je sedm účastníků.
+There are eight participants in the meeting.;total_participant_8.wav;V konferenci je osm účastníků.
+There are nine participants in the meeting.;total_participant_9.wav;V konferenci je devět účastníků.
+There are ten participants in the meeting.;total_participant_10.wav;V konferenci je deset účastníků.
+There are eleven par- ticipants in the meeting.;total_participant_11.wav;V konferenci je jedenáct účastníků.
+There are twelve par- ticipants in the meeting.;total_participant_12.wav;V konferenci je dvanáct účastníků.
+There are thir- teen par- ticipants in the meeting.;total_participant_13.wav;V konferenci je třináct účastníků.
+There are four- teen par- ticipants in the meeting.;total_participant_14.wav;V konferenci je čtrnáct účastníků.
+There are fif- teen par- ticipants in the meeting.;total_participant_15.wav;V konferenci je patnáct účastníků.
+There are six- teen par- ticipants in the meeting.;total_participant_16.wav;V konferenci je šestnáct účastníků.
+There are sev- enteen par- ticipants in the meeting.;total_participant_17.wav;V konferenci je sedmnáct účastníků.
+There are eight- een participants in the meeting.;total_participant_18.wav;V konferenci je osmnáct účastníků.
+There are nine- teen par- ticipants in the meeting.;total_participant_19.wav;V konferenci je devatenáct účastníků.
+There are twenty par- ticipants in the meeting.;total_participant_20.wav;V konferenci je dvacet účastníků.
+There are more than twenty par- ticipants in the meeting.;total_participant_greater_than_20.wav;V konferenci je více než dvacet účastníků.
+Waiting for your host to join;waiting_for_host.wav;Čekáme až se připojí hostitel.
+Please enter the call ID, followed by the '#'(pound) key. ;ivr_id_entry.wav;Zadejte prosím číslo hovoru a stiskněte křížek.
+Unable to recognize that call ID. Please try again.;ivr_id_incorrect_try_again.wav;Neznámé číslo hovoru. Prosím zkuste znovu.
+Please try again: this is your last attempt.;ivr_id_incorrect_final_attempt.wav;Prosím zkuste znovu. Je to váš poslední pokus.
+Unable to recognize that call ID. Goodbye.;ivr_id_incorrect_goodbye.wav;Neznámé číslo hovoru. Nashledanou.
+Welcome to a Cisco meeting.;ivr_welcome.wav;Vítejte v konferenci.
+Unable to connect you. Goodbye.;ivr_timeout.wav;Nepodařilo se mi vás spojit. Nashledanou.
