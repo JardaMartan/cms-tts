@@ -17,6 +17,7 @@ Seznam hlášek je v kapitole 3 [Customization Guide](https://www.cisco.com/c/da
 * **file_name** označuje sloupec s názvy souborů
 * **en-US** je sloupec s hláškami v angličtině
 * přeložené texty dejte do sloupce s příslušným kódem jazyka. Pokud kód neznáte nebo nevíte, zda ho Google umí, spusťte `python tts_generate.py -f prompts-test.csv`. V prvním kroku se vám vypíšou dostupné kódy. Pak program přerušte ^C a vyplňte sloupec v prompts.csv.
+
 Jestliže už máte prompts.csv připravené, generování promptů spustíte `python tts_generate.py -f prompts.csv` jako volitelné parametry lze uvést:
 * **-l / --language** - kód jazyka (např. `cs-CZ`)
 * **-v / --voice** - název hlasového generátoru (např. `cs-CZ-Wavenet-A`)
