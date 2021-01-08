@@ -18,7 +18,13 @@ Seznam hlášek je v kapitole 3 [Customization Guide](https://www.cisco.com/c/da
 * **en-US** je sloupec s hláškami v angličtině
 * přeložené texty dejte do sloupce s příslušným kódem jazyka. Pokud kód neznáte nebo nevíte, zda ho Google umí, spusťte `python tts_generate.py -f prompts-test.csv`. V prvním kroku se vám vypíšou dostupné kódy. Pak program přerušte ^C a vyplňte sloupec v prompts.csv.
 
-Jestliže už máte prompts.csv připravené, generování promptů spustíte `python tts_generate.py -f prompts.csv` jako volitelné parametry lze uvést:
+Jestliže už máte prompts.csv připravené, generování hlášek spustíte pomocí `python tts_generate.py -f prompts.csv` jako volitelné parametry lze uvést:
 * **-l / --language** - kód jazyka (např. `cs-CZ`)
 * **-v / --voice** - název hlasového generátoru (např. `cs-CZ-Wavenet-A`)
 * **-d / --directory** - název adresáře, do kterého se mají vygenerované hlášky nahrát
+
+## Nahrání na Cisco Meeting Server
+Postup je popsán v [Customization Guide](https://www.cisco.com/c/dam/en/us/td/docs/conferencing/ciscoMeetingServer/Customisation/Version-3-0/Cisco-Meeting-Server-3-0-Customization-Guidelines.pdf). Ve stručnosti je následující:
+1. hlášky nahrajte na nějaký web server, všechny do jednoho adresáře. Spolu s hláškami můžete vystavit i obrázky pro pozadí a webové rozhraní CMS.
+2. přes API (např. webová konzole CMS nebo pomocí Postman) vytvořte nové ivrBrandingProfile a callBrandingProfile s odkazem na URL web serveru s hláškami
+3. oba profily nastavte jako systémové
