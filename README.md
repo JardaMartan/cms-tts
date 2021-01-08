@@ -26,5 +26,5 @@ Jestliže už máte prompts.csv připravené, generování hlášek spustíte po
 ## Nahrání na Cisco Meeting Server
 Postup je popsán v [Customization Guide](https://www.cisco.com/c/dam/en/us/td/docs/conferencing/ciscoMeetingServer/Customisation/Version-3-0/Cisco-Meeting-Server-3-0-Customization-Guidelines.pdf). Ve stručnosti je následující:
 1. hlášky nahrajte na nějaký web server, všechny do jednoho adresáře. Spolu s hláškami můžete vystavit i obrázky pro pozadí a webové rozhraní CMS.
-2. přes API (např. webová konzole CMS nebo pomocí Postman) vytvořte nové ivrBrandingProfile a callBrandingProfile s odkazem na URL web serveru s hláškami
+2. přes API (např. webová konzole CMS nebo pomocí Postman) vytvořte nové **ivrBrandingProfile** a **callBrandingProfile** s odkazem na URL web serveru s hláškami
 3. oba profily nastavte jako systémové
