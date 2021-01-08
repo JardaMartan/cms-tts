@@ -13,7 +13,7 @@ Uložte si je do lokálního souboru (třeba `credentials.json`).
 5. připravte Google API credentials `export GOOGLE_APPLICATION_CREDENTIALS=credentials.json`
 
 ## Generování IVR hlášek
-Seznam hlášek je v kapitole 3 [Customization Guide](https://www.cisco.com/c/dam/en/us/td/docs/conferencing/ciscoMeetingServer/Customisation/Version-3-0/Cisco-Meeting-Server-3-0-Customization-Guidelines.pdf). Spolu s názvy IVR souborů je najdete v [prompts.csv](prompts.csv), k otestování slouží [prompts-test.csv](prompts-test.csv). První řádek CSV souboru je hlavička:
+Seznam hlášek je v kapitole 3 [Customization Guide](https://www.cisco.com/c/dam/en/us/td/docs/conferencing/ciscoMeetingServer/Customisation/Version-3-0/Cisco-Meeting-Server-3-0-Customization-Guidelines.pdf). Spolu s názvy IVR souborů je najdete v [prompts.csv](prompts.csv), k otestování slouží [prompts-test.csv](prompts-test.csv). Soubor byl editován v Excelu, proto jsou použity jako oddělovače středníky a ne čárky. Pokud použijete jiné oddělovače, upravte podle toho `    csv.register_dialect('semicolon', delimiter=';')` v tts_generate.py. První řádek CSV souboru je hlavička:
 * **file_name** označuje sloupec s názvy souborů
 * **en-US** je sloupec s hláškami v angličtině
 * přeložené texty dejte do sloupce s příslušným kódem jazyka. Pokud kód neznáte nebo nevíte, zda ho Google umí, spusťte `python tts_generate.py -f prompts-test.csv`. V prvním kroku se vám vypíšou dostupné kódy. Pak program přerušte ^C a vyplňte sloupec v prompts.csv.
